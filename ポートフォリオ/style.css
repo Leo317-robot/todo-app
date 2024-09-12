@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .task-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"], select, input[type="date"] {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 15px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    background-color: #e9e9e9;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* 背景を黒に */
+    color: #00bfff; /* テキストを青に */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: #1a1a1a; /* コンテナの背景を少し明るい黒に */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5); /* 青い影を追加 */
+    border-radius: 10px; /* 角を丸める */
+  }
+  
+  h1 {
+    text-align: center;
+    color: #00bfff; /* タイトルを青に */
+  }
+  
+  .task-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"], select, input[type="date"] {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #333333; /* 入力欄の背景を暗めに */
+    color: #00bfff; /* 入力欄の文字を青に */
+    border: 1px solid #00bfff; /* 青い枠線 */
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #00bfff; /* ボタンを青に */
+    color: #ffffff; /* ボタンの文字を白に */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005f99; /* ホバー時に暗めの青に変化 */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    background-color: #333333; /* リストアイテムの背景を暗めに */
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    color: #00bfff; /* リストアイテムの文字を青に */
+    border: 1px solid #00bfff; /* リストアイテムの枠線を青に */
+    border-radius: 5px;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    color: #888888; /* 完了したタスクの文字をグレーに */
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed; /* 画像を背景に設定 */
+    background-size: cover; /* 画像を画面に合わせてリサイズ */
+    color: #00bfff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background-color: rgba(26, 26, 26, 0.8); /* 背景を半透明にして画像を透過させる */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 255, 0.5);
+    border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #00bfff;
+  }
+  
+  .task-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"], select, input[type="date"] {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #333333;
+    color: #00bfff;
+    border: 1px solid #00bfff;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    background-color: #00bfff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #005f99;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    background-color: #333333;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    color: #00bfff;
+    border: 1px solid #00bfff;
+    border-radius: 5px;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    color: #888888;
+  }
+  input[type="text"], select, input[type="date"] {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #ffffff; /* 日付選択の背景を白に */
+    color: #000000; /* 日付の文字色を黒に */
+    border: 1px solid #00bfff; /* 青い枠線 */
+    border-radius: 5px;
+  }
+  
+  input[type="date"] {
+    background-color: #ffffff; /* 日付選択フィールドの背景を白に */
+    color: #000000; /* 文字色を黒に */
+    border: 1px solid #00bfff; /* 枠線は他の入力フィールドと同じ青 */
+    border-radius: 5px;
+  }
+  
